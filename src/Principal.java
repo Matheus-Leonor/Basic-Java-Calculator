@@ -1,10 +1,6 @@
 import java.util.Scanner;
 
-
-//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Principal {
-
     public static void main(String[] args) {
         Scanner leitura = new Scanner(System.in);
         Calculadora calculadora = new Calculadora();
@@ -22,7 +18,6 @@ public class Principal {
             System.out.println(menu);
             opcao = leitura.nextInt();
             leitura.nextLine();
-
             switch (opcao) {
                 case 1:
                     calculadora.somar();
@@ -39,10 +34,7 @@ public class Principal {
                 case 0:
                     System.out.println("Saindo...");
                 default: System.out.println("Opção inválida");
-
-
             }
         }
     }
-
 }
