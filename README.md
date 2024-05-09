@@ -1,4 +1,4 @@
-# A first-level heading **Basic Calculator in Java:**
+# **Basic Calculator in Java:**
 A simple calculator with just 4 operations.
 
 The idea here was just to have fun! 
